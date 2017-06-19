@@ -5,10 +5,13 @@ import { FormsModule } from "@angular/forms";
 import { MyDatePickerModule } from 'mydatepicker';
 
 import { AppComponent } from './app.component';
+import { CalendarComponent } from "./calendar/calendar.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalendarComponent,
+    
   ],
   imports: [
     BrowserModule,
